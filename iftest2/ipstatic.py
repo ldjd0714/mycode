@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Alta3 Research | RZFeeser
-   Conditionals - testing if strings test true"""
+   Conditionals - strings test true"""
 
-ipchk = input("Apply an IP address: ") # this line now prompts the user for input
+ipchk = "192.168.0.1"
 
-# a provided string will test true
+# a string tests as True
 if ipchk:
-   print("Looks like the IP address was set: " + ipchk) # indented under if
+   print("Looks like the IP address was set: " + ipchk)
 
